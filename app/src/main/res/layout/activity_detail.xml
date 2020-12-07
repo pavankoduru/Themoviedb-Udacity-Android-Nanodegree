@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/backroundPath"
+            android:layout_gravity="center"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detailtext1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/detailimg"/>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/layoutbackground"
+            >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailtext3"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"
+        android:textSize="25sp"
+        android:gravity="center"
+
+        />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/textcolor"
+                android:layout_margin="2dp"
+                ></View>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailtext2"
+        android:textSize="20sp"
+        android:padding="5dp"/>
+
+
+
+        </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/releasedate"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/releasedate"
+        android:layout_gravity="center"
+        android:textColor="@color/textcolor"
+        android:textSize="23sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rating"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/rating"
+        android:textColor="@color/textcolor"
+        android:textSize="23sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/totalrating"
+            android:textColor="@color/textcolor"
+            android:textSize="23sp"/>
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TheMovieDbnano</string>
+    <string name="releasedate">***Release-Date:</string>
+    <string name="rating">Rating:</string>
+    <string name="totalrating">/10</string>
+
+</resources>
